@@ -14,7 +14,7 @@ if (instanceId && frameId && platform) {
       document.body.innerHTML += "<p>App Initialized ✅</p>";
     })
     .catch((err) => {
-      console.error("Initialization failed:", err);
+      console.error("Initialization failed: ", err);
       document.body.innerHTML += "<p style='color: red;'>Init failed ❌</p>";
     });
 } else {
