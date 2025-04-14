@@ -1,5 +1,3 @@
-
-
 const inputField = document.getElementById("input");
 const md = window.markdownit; 
 
