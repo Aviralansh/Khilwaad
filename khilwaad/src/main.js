@@ -21,3 +21,4 @@ if (instanceId && frameId && platform) {
   console.error("Missing required URL parameters");
   document.body.innerHTML += "<p style='color: red;'>Missing required URL parameters</p>";
 }
+
